@@ -2,8 +2,6 @@ import joblib
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
-# For NumPy >= 2.0.0
-from numpy.exceptions import ComplexWarning
 
 # path to the saved model and its components
 MODEL_PATH = 'artifacts/model_data.joblib'
